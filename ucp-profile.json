@@ -1,0 +1,28 @@
+{
+  "ucp": {
+    "version": "2026-08-25",
+    "services": {
+      "dev.ucp.shopping": [
+        {
+          "version": "2026-08-25",
+          "transport": "mcp"
+        }
+      ]
+    },
+    "capabilities": {
+      "dev.ucp.shopping.catalog": [
+        {
+          "version": "2026-08-25"
+        }
+      ],
+      "dev.ucp.shopping.cart": [
+        {
+          "version": "2026-08-25"
+        }
+      ]
+    }
+  },
+  "name": "ygo-deck-study personal shopping assistant",
+  "description": "Finds prices for one buyer's missing Yu-Gi-Oh cards; the buyer reviews and pays.",
+  "contact": "https://wntr2134.github.io"
+}
